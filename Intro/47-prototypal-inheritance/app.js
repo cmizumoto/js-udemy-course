@@ -30,7 +30,7 @@ Customer.prototype = Object.create(Person.prototype);
 Customer.prototype.cosntructor = Customer;
 
 // Create a customer
-const customer1 = new Customer('Tom', 'Smith', '34738248302', 'Standard');
+const customer1 = new Customer('Tom', 'Smith', '347-3824-302', 'Standard');
 
 console.log(customer1);
 
