@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "company": "123Designs",
+        "phone": "22-33-33-33"
+    },
+    {
+        "id": 2,
+        "name": "Steve miguel",
+        "company": "Hello Fresh",
+        "phone": "22-3313131313-33-33"
+    },
+    {
+        "id": 3,
+        "name": "Joseph Tira",
+        "company": "Jokosmo",
+        "phone": "22-343243211899-33"
+    }
+]
