@@ -18,7 +18,7 @@ class UI {
         this.icon.setAttribute('src', `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`
         );
         this.humidity.textContent = `Relative Humidity: ${weather.main.humidity}`;
-        this.feelsLike.textContent = `Feels Like: ${weather.main.feels_like}`;
+        this.feelsLike.textContent = `Feels Like: ${weather.main.feels_like} °F`;
         this.dewpoint.textContent = `Visibility: ${weather.visibility}`;
         this.wind.textContent = `Wind speed: ${weather.wind.speed}`;
     }
