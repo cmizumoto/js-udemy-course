@@ -28,7 +28,23 @@ re = /Hel{2,4}o/i; // Must occur in the range {m,m} amount of times
 re = /Hel{2,}o/i; // Must occur at least {m,} amount of times
 
 // Parenthesis () - Grouping
-re = /([0-9]x){3}$/;
+re = /([0-9]x){3}/;
+
+// Shorthand Character Classes
+re = /\w/; // word character - alphanumeric or _
+re = /\w+/; // + = one or more
+re = /\W/; // NON-word character // ! " " ?
+re = /\d/; // Match any digit
+re = /\d+/; // Match any digit 0 or more times
+re = /\D/; // match any NON-digit
+re = /\s/; // Match whitespace characters
+re = /\S/; // Match NON-whitespace characters
+re = /Hell\b/i; // Word boundary //
+
+//  Assertions
+re = /x(?=y)/; // Match x only if followed by y
+re = /x(?!y)/; // Match x only if NOT followed by y
+
 
 // string to match
 const str = 'Hello world';
